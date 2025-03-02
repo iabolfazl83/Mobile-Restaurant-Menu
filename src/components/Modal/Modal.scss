@@ -1,0 +1,46 @@
+.popup-modal {
+  position: fixed;
+  z-index: 2;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transition: top 0.3s ease;
+}
+
+.popup-modal::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgb(33 33 33 / 30%);
+  backdrop-filter: blur(4px);
+}
+
+.popup-modal-container {
+  margin: 55px auto;
+  padding: 10px;
+  transition: top 0.3s ease;
+}
+
+.popup-modal.active {
+  top: 0;
+}
+
+.close-modal {
+  top: 100%;
+  right: 12px;
+  transition: top 0.3s ease;
+  z-index: 3;
+}
+
+.close-modal.active {
+  top: 10px;
+}
+
+.close-modal svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}

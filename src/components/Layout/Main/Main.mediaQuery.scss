@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) {
+  .category-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+
+@media screen and (min-width: 375px) {
+  .category-items {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

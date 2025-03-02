@@ -1,0 +1,131 @@
+.category-sticky-menu-item > div {
+  max-height: 3rem;
+}
+
+.sticky-menu-item-photo {
+  width: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.category-items-sticky-menu {
+  border-color: #adadad !important;
+  box-shadow: inset 30px 0 40px -22px rgba(0, 0, 0, 0.1),
+  inset -30px 0px 40px -22px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-menu-btn {
+  height: 3rem;
+  max-width: 80%;
+}
+
+.back-to-menu-btn-logo {
+  width: 3rem;
+}
+
+.show-when-active {
+  display: none;
+}
+
+.swiper-slide-active .show-when-active {
+  display: -webkit-box;
+}
+
+.swiper-slide-active .category-sticky-menu-item > div {
+  border-radius: 2rem !important;
+}
+
+.category-sticky-menu-item > div:not(.swiper-slide-active .category-sticky-menu-item > div) {
+  width: fit-content !important;
+  padding: 8px !important;
+  min-width: 2.3rem;
+}
+
+.category-items-list {
+  scroll-behavior: smooth;
+  height: calc(100vh - 139px) !important;
+}
+
+.category-header p {
+  color: rgb(255 255 255 / 60%);
+}
+
+.category-body {
+  background-color: rgb(255 255 255 / 10%);
+}
+
+.category-body-item-photo img {
+  height: 8rem;
+}
+
+.item-info-description {
+  background: rgb(67,67,67);
+  background: -moz-linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(217,217,217,1) 43%, rgba(254,254,254,1) 98%);
+  background: -webkit-linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(217,217,217,1) 43%, rgba(254,254,254,1) 98%);
+  background: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(217,217,217,1) 43%, rgba(254,254,254,1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#434343",endColorstr="#fefefe",GradientType=1);
+  max-height: 2.75rem;
+  overflow: hidden;
+  line-height: 1.25rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.category-header {
+  margin: 2rem 0;
+}
+
+.category-container > div:last-of-type {
+  padding-bottom: 1rem;
+}
+
+.popup-photo {
+  width: calc(100% - 20px);
+}
+
+.popup-photo img {
+  max-height: 40vh;
+}
+
+.popup-info-container {
+  width: calc(100% - 20px);
+  margin-top: 50vh;
+  height: 90%;
+}
+
+.burger-menu-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.go-up-btn {
+  left: 2.5rem;
+  transition: all .25s ease;
+}
+
+.go-up-btn-show, .cart-btn {
+  bottom: 1.5rem;
+}
+
+.go-up-btn-hidden {
+  bottom: -3.5rem;
+}
+
+.go-up-btn svg, .cart-btn svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cart-btn {
+  right: 2.5rem;
+}
+
+.add-to-cart-btn svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}

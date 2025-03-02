@@ -1,0 +1,7 @@
+html .fixed-poster {
+  background-image: url(../../../../public/images/coffee-bg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  filter: blur(6px);
+  z-index: 1;
+}

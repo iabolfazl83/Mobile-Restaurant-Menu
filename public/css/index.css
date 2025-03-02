@@ -1,0 +1,6 @@
+@import './fonts.css';
+@import '../fontawsome/css/fontawesome.min.css';
+@import '../fontawsome/css/brands.min.css';
+@import '../fontawsome/css/solid.css';
+/*bootstrap is in main.jsx*/
+@import './style.css';
