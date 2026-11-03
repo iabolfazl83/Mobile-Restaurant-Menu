@@ -48,6 +48,6 @@ const routes = createBrowserRouter([
             </main>
         )
     }
-]);
+], {basename: import.meta.env.BASE_URL});
 
 export {routes};
